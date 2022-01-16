@@ -1,0 +1,125 @@
+body {
+    font-family: Montserrat;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.row {
+    margin-bottom: 15px;
+
+    width: 100%;
+
+    padding-left: 20px;
+    padding-top: 104px;
+    padding-bottom: 100px;
+
+
+}
+
+.container:after, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-1-5 {
+    width: 18%;
+    float: left;
+}
+
+.col-2-5 {
+    width: 18%;
+    float: left;
+}
+
+.col-3-5 {
+    width: 18%;
+    float: left;
+}
+
+.col-4-5 {
+    width: 18%;
+    float: left;
+}
+
+.col-5-5 {
+
+}
+
+ul {
+    list-style: none;
+
+    line-height: 2.0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.bolt {
+    font-weight: bold;
+    line-height: 17px;
+    color: black;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    width: 260px;
+    height: 44px;
+
+    padding-left: 15px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-family: Montserrat;
+}
+
+.twit {
+    width: 24px;
+    height: 24px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+
+    display: flex;
+    float: right;
+    padding-right: 200px;
+}
+
+.face {
+    width: 24px;
+    height: 24px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+
+    display: flex;
+    float: right;
+}
+
+.inst {
+    width: 24px;
+    height: 24px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+
+    display: flex;
+    float: right;
+    padding-bottom: 23px;
+}
